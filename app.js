@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
     res.json({
-        message: "My first CI/CD project"
+        message: "Automatically deployed with Railway!"
     });
 });
 
