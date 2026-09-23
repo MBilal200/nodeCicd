@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Node CI/CD API"
+        message: "My first CI/CD project"
     });
 });
 
